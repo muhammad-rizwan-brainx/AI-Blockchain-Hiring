@@ -1,0 +1,14 @@
+.body{
+    flex-grow: 1;
+}
+.custom-content {
+    display: flex;
+    flex-direction: column;
+}
+.background {
+    min-height: 100vh;
+    min-width: 100vw;
+    background: url("../../assets/img/background.jpg") 0 0 no-repeat; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+}

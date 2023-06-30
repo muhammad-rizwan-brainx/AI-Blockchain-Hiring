@@ -1,0 +1,36 @@
+html, body {
+    margin: 0; 
+    height: 100%; 
+    overflow-x: hidden
+}
+.text-right {
+    text-align: right;
+}
+.padding-32 {
+    padding: 32px;
+}
+.margin-12 {
+    margin: 12px;
+}
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.back-red {
+    background-color: red;
+}
+
+.back-blue {
+    background-color: blue;
+}
+
+.h-1-2 {
+    height: 50%;
+}
+.relative {
+    position: relative;
+}
+.absolute {
+    position: absolute;
+}
