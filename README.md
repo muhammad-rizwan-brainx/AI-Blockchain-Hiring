@@ -1,4 +1,4 @@
-# Short Test: [Ai-Blockchain](https://www.linkedin.com/company/aiblockchain/) Company Hiring Assessment
+# Short Test: Ai-Blockchain Hiring Assessment
 
 This assessment serves as a simple project to evaluate your proficiency and experience working with Web3 by implementing a sign process using MetaMask.
 
