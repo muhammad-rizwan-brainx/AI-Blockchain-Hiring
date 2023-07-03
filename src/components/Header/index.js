@@ -44,6 +44,10 @@ function HomePage() {
         <Link to="/loginpage" className="margin-12">
           LOGIN
         </Link>
+        <span>/</span>
+        <Link to="/signtransaction" className="margin-12">
+          SIGNATURE
+        </Link>
       </Col>
       <Col xs="4" className="logo" >
         <a className="margin-12" onClick={connectWallet}>

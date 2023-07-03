@@ -16,12 +16,13 @@
 
 */
 import React from 'react';
-import ReactDOM from 'react-dom/client';
+import ReactDOM from 'react-dom';
 import { BrowserRouter, Route, Switch, Redirect } from 'react-router-dom';
 
 import AdminLayout from 'layouts/Admin/Admin.js';
 import HomePage from 'views/HomePage';
 import LoginPage from 'views/LoginPage';
+import SignTransaction from 'views/SignTransactionPage';
 import Login from 'views/Login.js';
 import Register from 'views/Register.js';
 
@@ -38,13 +39,14 @@ import BackgroundColorWrapper from './components/BackgroundColorWrapper/Backgrou
 const root = ReactDOM.createRoot(document.getElementById('root'));
 const isWindows = navigator.platform.includes('Win');
 
-if (isWindows) {
+if (!isWindows) {
   root.render(
     <ThemeContextWrapper>
       <BackgroundColorWrapper>
         <BrowserRouter>
           <Switch>
             <Route path="/home" render={() => <HomePage />} />
+            <Route path="/signtransaction" render={() => <SignTransaction />} />
             <Route path="/loginpage" render={() => <LoginPage />} />
             <Route path="/admin" render={(props) => <AdminLayout {...props} />} />
             <Route path="/login" render={() => <Login />} />

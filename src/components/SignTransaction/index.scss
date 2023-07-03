@@ -1,0 +1,36 @@
+.background-cover {
+    min-height: 100vh;
+    min-width: 100vw;
+    background-color: rgba(85, 40, 40, 0.411);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login-card {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+.custom-input-content {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.custom-input {
+    border-radius: 10px;
+    margin: 5px;
+    text-align: center;
+}
+.custom-button:hover {
+    border: 1px transparent solid;
+    cursor: pointer;
+}
